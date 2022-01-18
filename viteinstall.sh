@@ -97,7 +97,7 @@ echo '{
 fi
 # add node_config to path
 sudo mkdir -p $CONF_DIR
-sudo cp $CUR_DIR/node_config.json $CONF_DIR
+sudo cp $HOME/node_config.json $CONF_DIR
 ls  $CONF_DIR/node_config.json
 
 
