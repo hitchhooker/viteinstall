@@ -124,5 +124,5 @@ if [ -f $LOG_DIR/gvite ]; then
 echo "Vite already downloaded for installing. You can update it with update command."
 else
 echo "Lets download and install latest vite for installation."
-curl -s https://api.github.com/repos/vitelabs/go-vite/releases/assets/34911703 | jq -r .browser_download_url | xargs sudo curl -L -o ~/gvite_latest.tar.gz && sudo systemctl stop vite.service | tar -xf ~/gvite_latest.tar.gz -C ~/ --wildcards gvite*linux/gvite --strip-components=1 && sudo rm -rf ~/gvite_latest.tar.gz &&  install_vite && sudo systemctl start vite.service
+curl -s https://api.github.com/repos/vitelabs/go-vite/releases/assets/34911703 | jq -r .browser_download_url | xargs sudo curl -L -o ~/gvite_latest.tar.gz && sudo systemctl stop vite.service | tar -xf ~/gvite_latest.tar.gz -C ~/ --wildcards gvite*linux/gvite --strip-components=1 && sudo rm -rf ~/gvite_latest.tar.gz && install_vite && sudo systemctl start vite.service
 fi

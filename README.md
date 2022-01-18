@@ -5,9 +5,11 @@ Create a new user for gvite with sudo rights and run following command on after 
 ```
 adduser gvite
 passwd gvite
-sudo usermod -aG sudo gvite # debian/ubuntu
-sudo usermod -aG wheel gvite # centos/rocky
-su gvite
+sudo usermod -aG sudo gvite  #debian/ubuntu
+sudo usermod -aG wheel gvite  #centos/rocky
+su gvite && cd ~
+sudo apt update && sudo apt install curl git jq tar  #debian/ubuntu
+sudo apt update && sudo yum install curl git jq tar  #centos/rocky 
 ```
 
 ## Installation
