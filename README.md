@@ -1,3 +1,4 @@
+![viteinstall_logo](https://user-images.githubusercontent.com/15621959/151674771-fa4f647c-91cf-435c-9149-6db95c4e20ef.png)
 # viteinstall
 
 ## Pre-Installation
