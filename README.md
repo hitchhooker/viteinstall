@@ -33,7 +33,8 @@ disable	disables node to start automatically on startup
 vite	connects you to vite command line to communicate directly  
 	with node for more info  
 logs  	prints 100 last logs and begans following logging in realtime  
-update	updates latest vite client from github  
+update	updates latest vite client from github
+```
   
 ## Tip me
 If you find this installation script useful, please TIP me for opensourcing script :-)  
